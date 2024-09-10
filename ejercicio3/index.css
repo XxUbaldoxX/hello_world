@@ -1,0 +1,40 @@
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+  }
+  
+  @media (min-width: 375px) {
+    .box {
+      background-color: aqua;
+    }
+  }
+  @media (min-width: 768px) {
+    .box {
+      background-color: rebeccapurple;
+    }
+  }
+  @media (min-width: 1024px) {
+    .box {
+      background-color: chocolate;
+    }
+  }
+  
+  body {
+    font-size: 16px;
+  }
+  
+  .container {
+    font-size: 14px;
+  }
+  
+  .button {
+    font-size: 2rem;
+    transition: background-color 500ms ease-in-out;
+    transition: color 1s ease;
+  }
+  desktop .button:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+  }
